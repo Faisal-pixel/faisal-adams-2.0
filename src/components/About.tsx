@@ -16,7 +16,7 @@ function About({}: Props) {
       transition={{
         duration: 1.2,
       }}
-    className='flex flex-col relative h-screen text-center px-10 md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center'
+    className='flex flex-col relative text-center px-10 md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center'
     >
       <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>About</h3>
 
@@ -30,10 +30,10 @@ function About({}: Props) {
       whileInView={{x: 0}}
       viewport={{once: true}}
         src="/images/about.jpg"
-        className='mt-44 flex-shrink-0 w-56 h-56 rounded-full object-cover sm:mt-20 md:mt-0 md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]'
+        className='mt-44 flex-shrink-0 w-44 h-44 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[300px] xl:h-[400px]'
       />
 
-      <div className='space-y-5 sm:space-y-10 px-0 md:px-10'>
+      <div className='xs:mt-44 space-y-5 sm:space-y-10 px-0 md:px-10'>
         <h4 className='text-2xl pt-6 sm:text-4xl font-semibold'>Here is a <span className='underline decoration-[#836226a4]/50'>little</span> background</h4>
         <p>
           You migh also know me as <span className='font-semibol text-gray-500'>code_crushed! </span>

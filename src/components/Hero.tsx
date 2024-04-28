@@ -33,7 +33,7 @@ function Hero({}: Props) {
         transition={{
           duration: 2.5,
         }}
-        className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden pt-64"
+        className="flex flex-col space-y-8 items-center justify-center text-center overflow-hidden pt-64"
       >
         <BackgroundCircles />
         <Image
