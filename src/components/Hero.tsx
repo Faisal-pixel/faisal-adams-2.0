@@ -15,7 +15,7 @@ function Hero({}: Props) {
     words: [
       "Hi, My Name's Faisal Adams",
       "Guy-who-loves-watching-jack-bauer",
-      "<ButLovesToCodeMore />",
+      "<But Loves To Code More />",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -45,8 +45,8 @@ function Hero({}: Props) {
           <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
             SOFTWARE ENGINEER
           </h2>
-          <h1 className="text-5xl lg:text-6xl font-semibold px-10">
-            <span className="mr-3">{text}</span>
+          <h1 className="text-4xl lg:text-6xl font-semibold px-10">
+            <span className="mr-3 ">{text}</span>
             <Cursor cursorColor="#F7AB8A" />
           </h1>
 
